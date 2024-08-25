@@ -9,7 +9,6 @@ export const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const validateEmail = (email) => {
-    // Verifica que el correo contenga '@' y termine en '.com'
     console.log('Correo electrónico inválido:', email);
     return email.includes('@') && email.endsWith('.com');
   };
@@ -25,10 +24,10 @@ export const Login = () => {
       return;
     }
 
-    // Aquí puedes manejar el inicio de sesión (e.g., llamar a una API)
     Alert.alert('Éxito', '¡Inicio de sesión exitoso!');
     setEmail('');
     setPassword('');
+    navigation.navigate('Main');
   };
 
   return (

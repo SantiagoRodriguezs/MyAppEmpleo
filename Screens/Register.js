@@ -9,7 +9,6 @@ export const Register = () => {
   const navigation = useNavigation();
 
   const validateEmail = (email) => {
-    // Verifica que el correo contenga '@' y termine en '.com'
     return email.includes('@') && email.endsWith('.com');
   };
 

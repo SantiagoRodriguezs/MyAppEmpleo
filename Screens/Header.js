@@ -1,7 +1,7 @@
 // Screens/Header.js
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
-import Constants from 'expo-constants'; // Importa constantes de Expo, como la altura de la barra de estado.
+import Constants from 'expo-constants'; 
 import { useNavigation } from '@react-navigation/native';
 
 export const Header = () => {
@@ -9,8 +9,8 @@ export const Header = () => {
 
   return (
     <View style={styles.headerContainer}>
-      <Pressable onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.header}>JobLinker</Text>
+      <Pressable onPress={() => navigation.navigate('Dashboard')}>
+        <Text style={styles.header}>EmpleaNet</Text>
       </Pressable>
     </View>
   );
