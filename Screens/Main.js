@@ -1,8 +1,7 @@
-// App.js
+// Screens/Main.js
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Footer from './Footer2';
-import { Header } from './Header';
 
 export const Main = () => {
     return (

@@ -1,3 +1,4 @@
+// Screens/Register.js
 import React, { useState } from 'react';
 import { ScrollView, Text, TextInput, Pressable, StyleSheet, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
